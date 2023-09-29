@@ -1,9 +1,10 @@
-
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Task {{task_id}}</title>
+    <link type="text/css" href="{% static 'tasks/css/style.css' %}" rel="stylesheet">
 </head>
 <body>
 {%block content%}
